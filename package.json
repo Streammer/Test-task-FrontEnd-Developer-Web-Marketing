@@ -1,0 +1,22 @@
+{
+  "name": "test-task-frontend-developer-web-marketing",
+  "version": "1.0.0",
+  "description": "Test task for truck",
+  "main": "index.js",
+  "scripts": {
+    "test": "#"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Streammer/Test-task-FrontEnd-Developer-Web-Marketing.git"
+  },
+  "keywords": [
+    "truck"
+  ],
+  "author": "Dmitrij Lukashenka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Streammer/Test-task-FrontEnd-Developer-Web-Marketing/issues"
+  },
+  "homepage": "https://github.com/Streammer/Test-task-FrontEnd-Developer-Web-Marketing#readme"
+}
