@@ -9,13 +9,12 @@ heading.textContent = 'Hello world!'
 
 // создание свойства класса без конструктора
 class Game {
-	name = 'Violin Charades'
+    name = 'Violin Charades'
 }
 const myGame = new Game()
-
-// создаем параграф
+    // создаем параграф
 const p = document.createElement('p')
-p.textContent = `I like ${myGame.game}.`
+p.textContent = `I like ${myGame.name}.`
 
 
 
