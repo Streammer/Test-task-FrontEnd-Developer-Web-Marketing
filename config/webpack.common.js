@@ -53,10 +53,9 @@ module.exports = {
 			// Images: Copy image files to build folder
 			{ 
 				test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
-				type: 'asset/resource',
 				loader: 'file-loader',
 				options: {
-					name: '[path][name].[ext]',
+					name: 'img/[name].[ext]'
 				},
 			},
 
