@@ -16,9 +16,8 @@ const myGame = new Game()
 const p = document.createElement('p')
 p.textContent = `I like ${myGame.name}.`
 
-
-
-
+const img = document.createElement('img')
+img.src = example
 // add titlte in the DOM
 const root = document.querySelector('#root')
-root.append(heading, p)
+root.append(heading, p, img)
