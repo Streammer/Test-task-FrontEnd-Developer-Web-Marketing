@@ -1,4 +1,4 @@
-import example from './img/1.jpg'
+import image from './img/1.jpg'
 import './styles/main.scss'
 
 console.log("Hello world")
@@ -9,17 +9,15 @@ heading.textContent = 'Hello world!'
 
 // создание свойства класса без конструктора
 class Game {
-	name = 'Violin Charades'
+    name = 'Violin Charades'
 }
 const myGame = new Game()
-
-// создаем параграф
+    // создаем параграф
 const p = document.createElement('p')
-p.textContent = `I like ${myGame.game}.`
+p.textContent = `I like ${myGame.name}.`
 
-
-
-
+const img = document.createElement('img')
+img.src = image
 // add titlte in the DOM
 const root = document.querySelector('#root')
-root.append(heading, p)
+root.append(heading, p, img)
