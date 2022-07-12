@@ -20,4 +20,4 @@ const img = document.createElement('img')
 img.src = image
 // add titlte in the DOM
 const root = document.querySelector('#root')
-root.append(heading, p)
+root.append(heading, p, img)
