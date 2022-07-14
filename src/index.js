@@ -8,7 +8,7 @@ const heading = document.createElement('h1')
 heading.textContent = 'Hello world!'
 
 // создание свойства класса без конструктора
-class Game {
+export default class Game {
     name = 'Violin Charades'
 }
 const myGame = new Game()

@@ -3,4 +3,13 @@ html(lang="ru")
     meta(charset="utf-8")
     title= "Учимся работать с шаблонизатором Pug"
   body
-      h1 Hello, World!
+    h1 Hello, World! 
+    - var menu = require('./dataset.json')
+  - for (x = 0; x < 3; x++)
+    li item
+
+  if 10 == 10
+    h2 Working Game
+
+  if 1 == 1
+    h2  exist
