@@ -5,3 +5,4 @@ console.log(fn({
 	name: locals
 }));
 console.log(locals)
+ 
